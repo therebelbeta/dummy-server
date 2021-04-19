@@ -1,0 +1,14 @@
+{
+  "name": "dummy-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/therebelrobot/dummy-server.git",
+  "author": "therebelrobot <github@therebelrobot.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "scripts": {
+    "start": "serve -p 5555"
+  }
+}
