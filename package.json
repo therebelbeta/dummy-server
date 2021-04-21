@@ -9,6 +9,7 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "serve -p 5555"
+    "start:node": "serve -p 5555",
+    "start:nginx": "nginx -p `pwd`/ -c nginx.conf"
   }
 }

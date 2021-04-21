@@ -103,3 +103,10 @@ dist
 # TernJS port file
 .tern-port
 .DS_Store
+
+proxy_temp
+scgi_temp
+uwsgi_temp
+proxy_temp
+fastcgi_temp
+client_body_temp
